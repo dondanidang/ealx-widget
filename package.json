@@ -1,0 +1,16 @@
+{
+  "name": "ealx-widget",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "release": "javascript-obfuscator main.js --output build/main_prod.js"
+  },
+  "devDependencies": {
+    "javascript-obfuscator": "^4.1.0",
+    "vite": "^5.1.4"
+  }
+}
